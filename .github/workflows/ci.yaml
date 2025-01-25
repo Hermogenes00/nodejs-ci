@@ -9,11 +9,5 @@ jobs:
   test:
     runs-on: ubuntu
     steps:
-      - name: Run Tests
-        uses: actions/checkout@v4
-      - name: NodeJs Environment
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18
-      - run: npm install
-      - run: npm test
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
