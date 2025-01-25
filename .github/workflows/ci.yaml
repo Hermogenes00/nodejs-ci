@@ -7,7 +7,7 @@ on:
 
 jobs:      
   test:
-    runs-on: ubunt
+    runs-on: ubuntu
     steps:
       - name: Run Tests
         uses: actions/checkout@v4
