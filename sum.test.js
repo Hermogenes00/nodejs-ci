@@ -5,7 +5,7 @@ describe("Sum tests",()=>{
            
     it("sum",()=>{
         const result = t.sum(10,10)    
-        assert(result,20)
+        assert(result,200)
     })
 })
 
