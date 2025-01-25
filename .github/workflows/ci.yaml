@@ -21,6 +21,9 @@ jobs:
       with:
         node-version: 18
         cache: 'npm'
+    - name: Installing dependencies
+      run: npm install jest -g && npm install
     - name: Running Tests
-      run: npm install jest -g && npm install && npm test      
+      run: npm test
+      
     
