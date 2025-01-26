@@ -6,7 +6,7 @@
   "type": "commonjs",
   "scripts": {
     "test": "jest"
-  },
+  },  
   "author": "",
   "license": "ISC",
   "dependencies": {
