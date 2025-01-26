@@ -27,5 +27,23 @@ jobs:
       run: npm install jest -g && npm install
     - name: Running Tests
       run: npm test
+
+  build:
+    
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set up qemu
+        uses: docker/setup-qemu-action@v3
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build and push
+        uses: docker/build-push-action@v6
+        with:
+          push: false
+          tags: netosantos122/mynodejs:latest
+
       
     
