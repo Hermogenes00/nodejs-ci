@@ -9,7 +9,7 @@ describe("Math tests",()=>{
     })
 
     it("division",()=>{
-        const result = math.sum(10,10)    
+        const result = math.division(10,10)    
         assert(result == 1)
     })
 })
