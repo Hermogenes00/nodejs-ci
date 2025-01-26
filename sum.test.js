@@ -5,6 +5,7 @@ describe("Math tests",()=>{
            
     it("sum",()=>{
         const result = math.sum(10,10)    
+        
         assert(result == 20)
     })
 
