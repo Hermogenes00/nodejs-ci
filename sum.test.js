@@ -1,11 +1,16 @@
-const t = require("./sum.js")
+const math = require("./math.js")
 const assert = require("assert");
 
-describe("Sum tests",()=>{
+describe("Math tests",()=>{
            
     it("sum",()=>{
-        const result = t.sum(10,10)    
+        const result = math.sum(10,10)    
         assert(result == 20)
+    })
+
+    it("division",()=>{
+        const result = math.sum(10,10)    
+        assert(result == 1)
     })
 })
 

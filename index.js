@@ -1,5 +1,5 @@
 const express = require("express")
-const t = require("./sum.js")
+const t = require("./math.js")
 
 const app = express()
 
