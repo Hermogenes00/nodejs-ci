@@ -1,11 +1,12 @@
 name: Node.js CI.
 
 on:
-  push:
-    branches: [master]
+  pull_request:
+    branches:
+      - master
 
 jobs:
-  test:
+  check-application:
 
     runs-on: ubuntu-latest
 
