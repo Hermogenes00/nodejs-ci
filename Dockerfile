@@ -2,7 +2,7 @@ FROM node:18-alpine
 
 WORKDIR /app
 
-COPY . /usr/src/app
+COPY . .
 
 # #Enable another containers to access this one from port 3000
 EXPOSE 3000
